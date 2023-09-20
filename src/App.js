@@ -17,7 +17,7 @@ const Dragons = lazy(() => import('./Assets/Components/Dragons'));
 
 function App() {
   return (
-    <Router>
+    <Router basename='spacex'>
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/" element={<Login />} />
