@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { memo, useEffect } from "react";
 import Header from "./Header";
 import axios from "axios";
 import "../Styles/launches.css";
@@ -62,4 +62,4 @@ const Launches = () => {
   );
 };
 
-export default Launches;
+export default memo(Launches);

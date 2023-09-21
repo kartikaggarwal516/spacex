@@ -1,4 +1,4 @@
-import React from "react"
+import React, { memo } from "react"
 import "../Styles/header.css"
 import { Link, useNavigate } from "react-router-dom"
 import { Badge } from "react-bootstrap"
@@ -41,4 +41,4 @@ const Header = props => {
     )
 }
 
-export default Header
+export default memo(Header)

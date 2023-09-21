@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import Pagination from "react-js-pagination";
 import { useSelector, useDispatch } from "react-redux";
 import { handlePageChange } from "../Actions/Actions";
@@ -26,4 +26,4 @@ const PageOrder = () => {
   );
 };
 
-export default PageOrder;
+export default memo(PageOrder);

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { memo, useEffect } from "react";
 import axios from "axios";
 import Header from "./Header";
 import "../Styles/rockets.css";
@@ -64,4 +64,4 @@ const Rockets = () => {
   );
 };
 
-export default Rockets;
+export default memo(Rockets);

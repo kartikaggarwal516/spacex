@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { memo, useEffect } from "react";
 import Header from "./Header";
 import axios from "axios";
 import "../Styles/home.css";
@@ -58,4 +58,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default memo(Home);

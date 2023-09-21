@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { memo, useEffect } from "react";
 import axios from "axios";
 import "../Styles/dragons.css";
 import { Button, Card } from "react-bootstrap";
@@ -73,4 +73,4 @@ const Dragons = () => {
   );
 };
 
-export default Dragons;
+export default memo(Dragons);
