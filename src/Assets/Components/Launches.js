@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { memo, useEffect } from "react";
 import Header from "./Header";
 import axios from "axios";

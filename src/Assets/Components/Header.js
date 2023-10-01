@@ -28,7 +28,7 @@ const Header = props => {
                 <Link to="/launches">LAUNCHES</Link>
                 <Link to="/rockets">ROCKETS</Link>
                 <Link to="/dragons">DRAGONS</Link>
-                {user && user.role == "user"
+                {user && user.role === "user"
                     ? <Badge variant="secondary" className="badge">{user.role}</Badge>
                     : <Badge variant="warning"> {user.role}</Badge>
                 }

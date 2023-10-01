@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { memo, useEffect } from "react";
 import axios from "axios";
 import "../Styles/dragons.css";

@@ -1,4 +1,3 @@
-import React from 'react'
 import info from './InfoReducer'
 import launches from "./LaunchesReducer"
 import page from "./PageReducer"
