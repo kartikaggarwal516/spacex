@@ -1,6 +1,5 @@
 {
   "name": "spacex",
-  "homepage": "http://kartikaggarwal516.github.io/spacex",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
