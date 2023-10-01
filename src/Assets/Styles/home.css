@@ -1,6 +1,6 @@
 .home{
     height: 100vh;
-    background-image: url("https://www.spacex.com/static/images/backgrounds/starship_feature.webp");
+    background-image: url(https://res.cloudinary.com/dfa3hpcfo/image/upload/f_auto,q_auto/v1/spacex/homePageImage);
     background-size: cover;       
 }
 

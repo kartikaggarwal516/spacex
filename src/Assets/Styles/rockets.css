@@ -2,7 +2,7 @@
     width: 100vw;
 }
 .rockets{
-    background-image: url(https://www.spacex.com/static/images/backgrounds/f9_feature.webp);
+    background-image: url(https://res.cloudinary.com/dfa3hpcfo/image/upload/f_auto,q_auto/v1/spacex/rocketsPageImage);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
