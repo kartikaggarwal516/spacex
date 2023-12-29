@@ -3,6 +3,7 @@ import "../Styles/header.css"
 import { Link, useNavigate } from "react-router-dom"
 import { Badge } from "react-bootstrap"
 import logout from "../Images/logout_img.png"
+import spacexLogo from "../Images/spacex-logo.svg";
 
 const Header = props => {
     const navigate = useNavigate();
@@ -19,11 +20,9 @@ const Header = props => {
     }
     return (
         <div className="hcontainer">
-            <div className="hlogo">
-                <Link to="/home">
-                    <img src="https://www.spacexwiki.com/static/media/spacex-logo.9250222f.svg" alt="SpaceX logo" width="280px" />
-                </Link>
-            </div>
+            <Link className="header-logo-container" to="/home">
+                <img className="header-logo" src={spacexLogo} alt="SpaceX logo" width="280px" />
+            </Link>
             <div className="hmenu">
                 <Link to="/launches">LAUNCHES</Link>
                 <Link to="/rockets">ROCKETS</Link>

@@ -2,6 +2,7 @@
 import React, { useState, useEffect, memo } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import spacexLogo from '../Images/spacex-logo.svg';
 import "../Styles/login.css";
 
 const loginurl = "https://run.mocky.io/v3/689bee42-50f3-4da7-9046-64bde3a0317b";
@@ -79,11 +80,13 @@ const Login = () => {
 
   return (
     <div className="login">
-      <img
-        src="https://www.spacexwiki.com/static/media/spacex-logo.9250222f.svg"
-        alt="SpaceX logo"
-        width="350px"
-      />
+      <div className="logo-container">
+        <img
+          src={spacexLogo}
+          alt="SpaceX logo"
+          className="spacex-logo"
+        />
+      </div>
       <form className="SignIn-form" onSubmit={submitHandler}>
         <center>
           <h3>Sign In</h3>
